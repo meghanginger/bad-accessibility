@@ -24,10 +24,10 @@ const Layout = ({ location, title, children }) => {
   return (
     <div className="global-wrapper bg-cream min-h-screen" data-is-root-path={isRootPath}>
       <header className="global-header bg-berry">
-        <div className="p-1 p-4 container mx-auto">
+        <div className="p-4 pb-0 container mx-auto">
           {header}
-          <Nav />
         </div>
+        <Nav />
       </header>
       <main>{children}</main>
       <footer className="bg-pink relative bottom-0">
