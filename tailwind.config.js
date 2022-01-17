@@ -21,6 +21,7 @@ module.exports = {
         dark_blue: "#4A5899",
         berry: "#8C5383",
         pink: "#92374D",
+        red: '#ff0000'
       },
       spacing: {
         '128': '32rem',

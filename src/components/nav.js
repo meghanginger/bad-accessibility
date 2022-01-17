@@ -6,21 +6,21 @@ const Nav = () => {
   //<div className="p-4 pb-0 container mx-auto">
   return (
     <>
-      <div className="p-4 pb-0 container mx-auto">
+      <div className="container mx-auto mt-4">
         <ul class="flex">
-          <li class="mr-6">
+          <li class="mr-6 my-4">
             <a class="text-blue-500 hover:text-blue-800 mr-2 my-4" href="/about-this-blog">About this blog</a>
           </li>
-          <li class="mr-6">
-            <a class="text-blue-500 hover:text-blue-800 m-2 my-4" href="/newsletter">Sign up to our newsletter</a>
+          <li class="mr-6 my-4">
+            <a class="text-blue-500 hover:text-blue-800 m-2 mb-4" href="/newsletter">Sign up to our newsletter</a>
           </li>
-          <li className={`mr-6 ${isFaveFoodOpen && "bg-light_blue"}`}>
-            <button class="text-blue-500 hover:text-blue-800 flex items-start mx-2 my-4" onClick={() => setIsFaveFoodOpen(!isFaveFoodOpen)}>
+          <li className={`mr-6 ${isFaveFoodOpen && "bg-light_blue"} p-4`}>
+            <button class="text-blue-500 hover:text-blue-800 flex items-start mx-2" onClick={() => setIsFaveFoodOpen(!isFaveFoodOpen)}>
               Fave food bloggers
               <img className="w-4 h-4 ml-1" src={arrow} />
               </button>
           </li>
-          <li class="mr-6">
+          <li class="mr-6 my-4">
             <a class="text-gray-400 cursor-not-allowed m-2 my-4" href="#">Coming soon</a>
           </li>
         </ul>

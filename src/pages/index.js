@@ -28,7 +28,7 @@ const BlogIndex = ({ data, location }) => {
             <PostObject post={post} isBlog="true"/>
           ))}
           {
-            <PostObject post={mockPost}/>
+           // <PostObject post={mockPost}/>
           }
         </ol>
       </div>
